@@ -2719,3 +2719,10 @@ nav li #Register-content {
   opacity: 0.2;
   transition: 0.3s;
 }
+.nav1 li:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.nav1 li{
+  transition: 0.2s;
+}
