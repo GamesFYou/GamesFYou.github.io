@@ -157,10 +157,10 @@ span.menu {
 		display:none;
 }
 .top-menu ul li.active a,.top-menu ul li a:hover{
-	color: 		#859086
+	color: 	#725d5c;
 }
 .top-menu ul li a.active{
-  color: 		#859086
+  color: 	#725d5c;
 }
 ::-webkit-input-placeholder{
 color:#000 !important;
@@ -180,7 +180,7 @@ color:#000 !important;
 	min-height:680px;
 }
 .banner3{
-	background:url(../images/lofus.png) no-repeat 0px 0px;
+	background:url(../images/lofuss.png) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:680px;
 }
