@@ -392,9 +392,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     margin-bottom: 0.6em;
 }
 /*--x-box--*/
-.x-box{
-	padding:4em 0;
-}
+
 .x-box-left h2{
 	font-family: 'Play-Bold';
 	font-size:4em;
@@ -776,7 +774,7 @@ img.zoom-img {
 	transform: scale(1, 1);
 	-webkit-transform: scale(1, 1);
 	-moz-transform: scale(1, 1);
-	o-transform: scale(1, 1);
+	
 	-ms-transform: scale(1, 1);
 	transition-timing-function: ease-out;
 	-webkit-transition-timing-function: ease-out;
@@ -795,14 +793,7 @@ img.zoom-img:hover {
 	-moz-transform: scale(1.05);
 	-o-transform: scale(1.08);
 	-ms-transform: scale(1.08);
-	-webkit-transition-timing-function: ease-in-out;
-	-moz-transition-timing-function: ease-in-out;
-	-o-transition-timing-function: ease-in-out;
-	-ms-transition-timing-function: ease-in-out;
-    -webkit-transition-duration: 750ms;
-	-moz-transition-duration: 750ms;
-	-o-transition-duration: 750ms;
-	-ms-transition-duration: 750ms;
+	
 	overflow: hidden;
 }
 a.list-group-item:hover {
@@ -2742,4 +2733,10 @@ nav li #Register-content {
 }
 .nav1 li{
   transition: 0.2s;
+}
+
+
+.x-box{
+  height: 350px;
+  background-color: #000;
 }
