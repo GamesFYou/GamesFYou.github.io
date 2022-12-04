@@ -42,8 +42,8 @@ a#toTop{
 }
 /*-- header_top --*/
 .header{
-	background: rgb(229, 83, 11);
-background: linear-gradient(90deg, rgb(222, 193, 10) 0%, rgb(203, 101, 12) 100%);
+	background: rgba(0,0,0,1) 0%;
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(133,144,134,1) 100%);
 	padding:1em 0;
 }
 .headr-left{
@@ -157,10 +157,10 @@ span.menu {
 		display:none;
 }
 .top-menu ul li.active a,.top-menu ul li a:hover{
-	color: 	#725d5c;
+	color: 	#dc3545;
 }
 .top-menu ul li a.active{
-  color: 	#725d5c;
+  color: 	#dc3545;
 }
 ::-webkit-input-placeholder{
 color:#000 !important;
