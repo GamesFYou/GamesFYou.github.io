@@ -5,7 +5,7 @@ p {margin: 0;}
 html, body{
 	font-family: 'OpenSans-Regular';
 	font-size: 100%;
-	background: #ffffff;
+	background: #b6bf9d;
 }
 @font-face {
    font-family: 'OpenSans-Regular';
@@ -42,7 +42,8 @@ a#toTop{
 }
 /*-- header_top --*/
 .header{
-	background:#69d2e8;
+	background: rgb(114,93,92);
+background: linear-gradient(90deg, rgba(114,93,92,1) 0%, rgba(240,224,175,1) 100%);
 	padding:1em 0;
 }
 .headr-left{
@@ -156,7 +157,10 @@ span.menu {
 		display:none;
 }
 .top-menu ul li.active a,.top-menu ul li a:hover{
-	color: #f43c60;
+	color: 	#725d5c;
+}
+.top-menu ul li a.active{
+  color: 	#725d5c;
 }
 ::-webkit-input-placeholder{
 color:#000 !important;
@@ -171,7 +175,7 @@ color:#000 !important;
 	min-height:680px;
 }
 .banner2{
-	background:url(../images/milebi\ moralebi.png)repeat 0px 0px;
+	background:url(../images/milebi\ moralebi.png),repeat 0px 0px;
 	background-size:cover;
 	min-height:680px;
 }
@@ -1839,17 +1843,23 @@ ul.nav1 {
   width: 100%;
   left: 0;
   margin-top:2.5em;
-  background: #69d2e8;
+  background: rgb(89, 78, 77);
 }
 .top-menu ul.nav1 li.active{
-	background:#f43c60;
+	background: rgb(114,93,92);
+background: linear-gradient(90deg, rgba(114,93,92,1) 64%, rgba(240,224,175,1) 100%);
 	color:#fff;
+}
+.nav1 li{
+  background: rgb(114,93,92);
+background: linear-gradient(90deg, rgba(114,93,92,1) 0%, rgba(240,224,175,1) 100%);
 }
 .top-menu ul li.active a, .top-menu ul li a:hover {
   color: #FFFFFF;
 }
 .top-menu ul.nav1 li:hover{
-	background:#f43c60;
+	background: rgb(114,93,92);
+  background: linear-gradient(90deg, rgba(114,93,92,1) 64%, rgba(240,224,175,1) 100%);
 	color:#fff;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -1865,7 +1875,8 @@ ul.nav1 {
 	  width: 100%;
 }
 .top-menu ul li a.active {
-	  color: rgba(21, 132, 113, 0.65) !important;
+  background: rgb(114,93,92);
+  background: linear-gradient(90deg, rgba(114,93,92,1) 64%, rgba(240,224,175,1) 100%);
 	}	
 .top-menu ul li a {
    padding: .5em 0;
