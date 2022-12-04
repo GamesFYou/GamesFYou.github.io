@@ -1,6 +1,9 @@
 #carouselsize{
     height: 400px;
 }
+.navbar-brand{
+    margin-left: 5%;
+}
 .navbar-nav{
     margin-left: 78%;
 
