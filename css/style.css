@@ -157,10 +157,10 @@ span.menu {
 		display:none;
 }
 .top-menu ul li.active a,.top-menu ul li a:hover{
-	color: 	#725d5c;
+	color: 		#859086
 }
 .top-menu ul li a.active{
-  color: 	#725d5c;
+  color: 		#859086
 }
 ::-webkit-input-placeholder{
 color:#000 !important;
