@@ -2706,3 +2706,16 @@ nav li #Register-content {
 #password{
   border-radius: 10px 10px 10px 10px;
 }
+.nbs-flexisel-item:hover{
+  
+  transform: scale(1.1) translate(0, -20px);
+  transition: 0.2s;
+  z-index: 999999999;
+}
+.nbs-flexisel-item{
+  transition: 0.2s;
+}
+.game-grid:hover{
+  opacity: 0.2;
+  transition: 0.3s;
+}
