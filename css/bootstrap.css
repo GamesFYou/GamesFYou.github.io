@@ -53,6 +53,14 @@ a:hover {
 abbr[title] {
   border-bottom: 1px dotted;
 }
+#tghpls:hover{
+  cursor: default;
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+#tghpls{
+  transition: 0.2s;
+}
 b,
 strong {
   font-weight: bold;
