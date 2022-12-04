@@ -1,4 +1,3 @@
 $("#registerjson").click(function () { 
-    const map = new Map([])
-    
+    JSON.parse('[' + $("#Name").text(), $("#Email").text(),$("#Password").text() + ']');
 });
