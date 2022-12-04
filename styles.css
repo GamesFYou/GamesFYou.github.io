@@ -1,8 +1,9 @@
-.carouselsize{
-    height: 200px;
+#carouselsize{
+    height: 400px;
 }
 .navbar-nav{
     margin-left: 78%;
+
    
 }
 .nav-link{
@@ -15,4 +16,5 @@
 }
 #home{
     margin-top: 12%;
+
 }
