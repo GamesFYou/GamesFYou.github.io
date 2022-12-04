@@ -5,3 +5,14 @@
     margin-left: 78%;
    
 }
+.nav-link{
+  outline-color: transparent;
+}
+.btn.btn-success{
+   background-color: transparent;
+   color: black;
+   
+}
+#home{
+    margin-top: 12%;
+}
